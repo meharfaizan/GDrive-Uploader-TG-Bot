@@ -4,7 +4,7 @@ import wget
 import json
 import time
 import asyncio
-from pyrogram import Client, Filters
+from pyrogram import filters, Client
 from config import Messages as tr
 from config import Config
 from mimetypes import guess_type
