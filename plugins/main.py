@@ -3,7 +3,7 @@ import math
 import wget
 import time
 import asyncio
-from pyrogram import Client, Filters
+from pyrogram import filters, Client
 from config import Config
 from pySmartDL import SmartDL
 from plugins.uploader import upload_file
