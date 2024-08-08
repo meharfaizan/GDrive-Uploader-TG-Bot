@@ -3,8 +3,6 @@ import threading
 from sqlalchemy import Column, Integer, String, LargeBinary
 from helpers import BASE, SESSION
 
-gDriveCreds.__table__.create(checkfirst=True)
-
 class gDriveCreds(BASE):
     __tablename__ = "gDrive"
     chat_id = Column(Integer, primary_key=True)
