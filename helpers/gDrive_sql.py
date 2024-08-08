@@ -12,9 +12,6 @@ class gDriveCreds(BASE):
     def __init__(self, chat_id):
         self.chat_id = chat_id
 
-
-gDriveCreds.__table__.create(checkfirst=True)
-
 INSERTION_LOCK = threading.RLock()
 
 def set_credential(chat_id, credential_string):
