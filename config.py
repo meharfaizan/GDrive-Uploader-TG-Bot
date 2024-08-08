@@ -4,7 +4,7 @@ class Config:
   ENV = bool(os.environ.get('ENV', False))
   if ENV:
     BOT_TOKEN = os.environ.get('BOT_TOKEN','5442493323:AAHqpxh9_jdSQozCNcHtAhLJR84vOlPAu4U')
-    APP_ID = os.environ.get('APP_ID',1430593323)
+    APP_ID = os.environ.get('APP_ID',6534707)
     API_HASH = os.environ.get('API_HASH','4bcc61d959a9f403b2f20149cbbe627a')
     DATABASE_URL = os.environ.get('DATABASE_URL','mongodb+srv://Uploader:Uploader@cluster0.ba0ppxa.mongodb.net/?retryWrites=true&w=majority')
 
